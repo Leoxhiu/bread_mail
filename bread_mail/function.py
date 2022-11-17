@@ -14,7 +14,7 @@ def getFilePath(is_import):
     if is_import:
         filePath = filedialog.askopenfilename(initialdir=desktop,
                                               title='Select desired file',
-                                              filetypes=[('Excel files (xlsx, xls, csv)', '.xlsx .xls .csv'),
+                                              filetypes=[('Excel files (csv)', '.csv'),
                                                          ('All files', '*.*')])
     else:
         filePath = filedialog.askopenfilename(initialdir=desktop,

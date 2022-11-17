@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.4'
+VERSION = '1.4.1'
 DESCRIPTION = 'Email application'
-LONG_DESCRIPTION = 'It is used for sending email to multiple receivers at once.'
+LONG_DESCRIPTION = 'This is a simple package that is used for sending email to multiple recipients at once.'
 
 # Setting up
 setup(
@@ -18,7 +18,7 @@ setup(
     package_data={"assets": ["*.png", "*.jpeg"]},
     zip_safe=False,
     # add any additional packages that
-    install_requires=[],
+    install_requires=['pandas', 'pyIsEmail', 'yagmail', 'Pillow'],
     # needs to be installed along with your package. Eg: 'caer'
 
     keywords=['python', 'email'],
