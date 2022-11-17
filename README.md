@@ -7,6 +7,10 @@ This is a simple Python application that is packed and used for sending email to
 Please ensure that these following are installed on your operating system:
 1. Python
 2. Pip
+3. Pandas
+4. PyIsEmail
+5. Yagmail
+6. Pillow
 
 <br />
 
@@ -36,7 +40,7 @@ _You have to complete 2-Step Verification to see App Passwords_
 <br />
 
 #### Receivers
-1. Import the Excel file _(xlsx, xls, csv)_ that stores the receivers' email
+1. Import the CSV file that stores the receivers' email
 2. Select the email column
 3. Load the email (emails auto-checking will be conducted to find out invalid emails)
 
