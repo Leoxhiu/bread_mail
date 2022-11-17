@@ -1,0 +1,4 @@
+The module is open source and no restrictions.
+Please feel free to use it on your side and enhance it.
+
+Created by Leox
