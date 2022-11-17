@@ -17,7 +17,7 @@ Please ensure that these following are installed on your operating system:
 
 Use this command to install the package:
 
-> pip install bread-mail
+> pip install bread-mail==1.4.1
 
 <br />
 
